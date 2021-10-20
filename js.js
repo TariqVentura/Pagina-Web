@@ -2,12 +2,9 @@ var btnimg1 = document.getElementById('img1'),
     btnimg2 = document.getElementById('img2'),
     overlay = document.getElementById('overlay'),
     overlay2 = document.getElementById('overlay2'),
-    overlay3 = document.getElementById('overlay3'),
     btncerrar = document.getElementById('btn-close'),
     btncerrar2 = document.getElementById('btn-close2'),
-    btncerrar3 = document.getElementById('btn-close3'),
-    navbar = document.getElementById('Menu'),
-    Banner = document.getElementById('banner');
+    navbar = document.getElementById('Menu');
 
 window.onscroll = function() 
 {
@@ -22,14 +19,6 @@ window.onscroll = function()
     }
 };
 
-Banner.addEventListener('click', function()
-{
-    overlay3.classList.add('active')
-})
-btncerrar3.addEventListener('click', function()
-{
-    overlay3.classList.remove('active')
-})
 
 btnimg1.addEventListener('click', function()
 {
