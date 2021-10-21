@@ -132,7 +132,7 @@ header
     visibility: visible;
     opacity: 1;
 }
-.overlay3
+.overlay4
 {
     background: rgba(0, 0, 0, .3);
     position: fixed;
@@ -146,10 +146,71 @@ header
     visibility: hidden; 
     opacity: 0; 
 }
-.overlay3.active
+.overlay4.active
 {
     visibility: visible;
     opacity: 1;
+    z-index: 100;
+}
+.overlay5
+{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden; 
+    opacity: 0; 
+}
+.overlay5.active
+{
+    visibility: visible;
+    opacity: 1;
+    z-index: 100;
+}
+.overlay6
+{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden; 
+    opacity: 0; 
+}
+.overlay6.active
+{
+    visibility: visible;
+    opacity: 1;
+    z-index: 100;
+}
+.overlay7
+{
+    background: rgba(0, 0, 0, .3);
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    visibility: hidden; 
+    opacity: 0; 
+}
+.overlay7.active
+{
+    visibility: visible;
+    opacity: 1;
+    z-index: 100;
 }
 .C1
 {
